@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" 
+ 
+    >
+ 
+
+ <TextView 
+     android:background="@android:color/darker_gray"
+     android:layout_width="fill_parent"
+     android:layout_height="1dp"
+     android:layout_marginTop="20dp"
+     />
+    
+<LinearLayout 
+    android:id="@+id/line1"
+	android:layout_width="fill_parent"
+	android:layout_height="45dp"
+	android:orientation="horizontal" 
+	android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+	
+	>
+    <TextView 
+        android:id="@+id/show_exam_name"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="@android:color/black"
+        android:text="考试科目:"
+        
+        />
+    <EditText 
+        android:id="@+id/edit_exam_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:singleLine="true"
+        android:background="@null"
+        android:textSize="15dp"
+        />
+    
+</LinearLayout>
+<TextView 
+        android:background="@android:color/darker_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        />
+<LinearLayout 
+    android:id="@+id/line2"
+	android:layout_width="fill_parent"
+	android:layout_height="45dp"
+	android:orientation="horizontal"
+	android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" 
+	 >
+    <TextView 
+        android:id="@+id/show_exam_time"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="@android:color/black"
+        android:text="考试时间:"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/edit_exam_time"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@android:color/black"
+        android:background="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textSize="15dp"
+        android:hint="点击选择时间"
+        android:clickable="true"
+        android:onClick="examTimeOnclickListener"
+        
+        />
+</LinearLayout>
+ <TextView 
+        android:background="@android:color/darker_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        />
+<LinearLayout 
+    android:id="@+id/line3"
+	android:layout_width="fill_parent"
+	android:layout_height="45dp"
+	android:orientation="horizontal" 
+	android:layout_below="@id/line2"
+	android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+	 >
+    <TextView 
+        android:id="@+id/show_exam_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="@android:color/black"
+        android:text="考试地点:"
+        />
+    <EditText 
+        android:id="@+id/edit_exam_addr"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@android:color/black"
+        android:hint="输入地址（可不填）"
+        android:singleLine="true"
+        android:textSize="15dp"
+         android:layout_marginLeft="10dp"
+         android:background="@null"
+        />
+</LinearLayout>
+ <TextView 
+        android:background="@android:color/darker_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        />
+<LinearLayout 
+    android:id="@+id/line4"
+	android:layout_width="fill_parent"
+	android:layout_height="45dp"
+	android:orientation="horizontal" 
+	android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" >
+    <TextView 
+        android:id="@+id/show_exam_remind"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="@android:color/black"
+        android:text="提醒时间:"
+        android:layout_marginTop="10dp"
+        />
+    <TextView 
+        android:id="@+id/edit_exam_remind"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:hint="点击选择提醒时间"
+        android:singleLine="true"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:background="@null"
+         android:clickable="true"
+         android:onClick="examTimeRemindOnclickListener"
+        />
+</LinearLayout>
+</LinearLayout>

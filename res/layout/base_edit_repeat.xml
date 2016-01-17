@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <LinearLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/testlayout"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="horizontal">
+<Button 
+    android:cursorVisible="true"
+    android:layout_width="wrap_content"
+    android:text="11"
+  		android:layout_height="45dp"
+	    android:layout_marginLeft="10dp"	
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"  
+	     android:background="@android:color/white"
+	    android:paddingTop="10dip"  
+		android:paddingBottom="10dip" 
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+    />
+<Button 
+    android:layout_width="wrap_content"
+    android:layout_height="45dp"
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"  
+	    android:layout_marginBottom="30dp"
+	    android:paddingTop="10dip"  
+		android:paddingBottom="10dip" 
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		 android:background="@android:color/white"
+    android:text="22"
+    />
+<Button 
+    android:layout_width="wrap_content"
+   android:layout_height="45dp"
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"  
+	    
+	    android:paddingTop="10dip"  
+		android:paddingBottom="10dip" 
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		 android:background="@android:color/white"
+    android:text="33"
+    />
+<Button 
+    android:layout_width="wrap_content"
+   android:layout_height="45dp"
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"  
+	     android:background="@android:color/white"
+	    android:paddingTop="10dip"  
+		android:paddingBottom="10dip" 
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+    android:text="44"
+    />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+    android:orientation="horizontal"
+    android:layout_below="@id/testlayout"
+    >
+    <Button 
+    android:layout_width="wrap_content"
+   android:layout_height="45dp"
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"  
+	     android:background="@android:color/white"
+	    android:paddingTop="10dip"  
+		android:paddingBottom="10dip" 
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+    android:text="44"
+    />
+    <Button 
+    android:layout_width="wrap_content"
+   android:layout_height="45dp"
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"  
+	     android:background="@android:color/white"
+	    android:paddingTop="10dip"  
+		android:paddingBottom="10dip" 
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+    android:text="44"
+    />
+    
+    
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+         >
+     <TextView 
+        android:id="@+id/viewpage_text1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="期末考试"
+        android:layout_weight="1.0"
+        android:textColor="@android:color/black"
+        />
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="1dp"
+         android:background="@android:color/black"
+         />
+     <TextView 
+        android:id="@+id/viewpage_text2"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="鉴定考试"
+        android:layout_weight="1.0"
+        android:textColor="@android:color/black"
+        />
+     <TextView 
+        android:id="@+id/viewpage_text3"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:text="其他"
+        android:layout_weight="1.0"
+        android:textColor="@android:color/black"
+        />   
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/viewpage_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:src="@drawable/a"
+        
+        
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation"
+        
+        />
+
+</LinearLayout>

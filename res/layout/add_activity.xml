@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+     <LinearLayout 
+         xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+         >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:orientation="horizontal"
+             android:layout_marginBottom="10dp" 
+             android:layout_marginTop="10dp">
+
+             <Button
+                 android:id="@+id/add_exam"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:text="考试"
+                 android:textColor="#f0f0f0"
+                 android:textSize="25sp"
+                 android:onClick="addEvents"
+                 android:background="#46a3ff"
+                 android:layout_marginRight="10dp" />
+
+             <Button
+                 android:id="@+id/add_homework"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:text="作业"
+                 android:textColor="#f0f0f0"
+                 android:textSize="25sp"
+                 android:onClick="addEvents"
+                 android:background="#46a3ff" 
+                 />
+
+         </LinearLayout>
+        
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:orientation="horizontal"
+             android:layout_marginBottom="10dp" >
+
+             <Button
+                 android:id="@+id/add_habbit"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:text="习惯"
+                 android:textColor="#f0f0f0"
+                 android:textSize="25sp"
+                 android:onClick="addEvents"
+                 android:background="#46a3ff"
+                 android:layout_marginRight="10dp" />
+
+             <Button
+                 android:id="@+id/add_event"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:text="事件"
+                 android:textColor="#f0f0f0"
+                 android:textSize="25sp"
+                 android:onClick="addEvents"
+                 android:background="#46a3ff" />
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:orientation="horizontal"
+             android:layout_marginBottom="10dp" >
+
+             <Button
+                 android:id="@+id/add_meeting"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:text="会议"
+                 android:textColor="#f0f0f0"
+                 android:textSize="25sp"
+                 android:onClick="addEvents"
+                 android:background="#46a3ff" 
+                 android:layout_marginRight="10dp"/>
+
+             <Button
+                 android:id="@+id/add_notice"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:text="公告"
+                 android:textColor="#f0f0f0"
+                 android:textSize="25sp"
+                 android:onClick="addEvents"
+                 android:background="#46a3ff" />
+
+         </LinearLayout>
+         
+     </LinearLayout>
+   

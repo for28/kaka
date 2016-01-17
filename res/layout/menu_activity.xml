@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/welcome_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:text="修改个人信息"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+        
+        <TextView 
+            android:id="@+id/check_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:text="查看个人事务"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+        <TextView 
+            android:id="@+id/check_courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:text="查看课程表"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+        <TextView 
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:text="设置"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+        <TextView 
+            android:id="@+id/quit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:text="退出"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+        
+    </LinearLayout>
+</RelativeLayout>

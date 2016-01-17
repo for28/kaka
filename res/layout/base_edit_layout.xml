@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+     <TextView
+       android:id="@+id/Base_selete_type"
+		android:singleLine="true"
+	    android:adjustViewBounds="true" 
+	    android:background="@android:color/white"
+	    android:drawableStart="@drawable/event_bookmark"  
+
+	    android:layout_width="fill_parent"
+	    android:layout_height="45dp"
+	    android:layout_marginLeft="10dp"	
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"  
+	    
+	    android:paddingTop="10dip"  
+		android:paddingBottom="10dip" 
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		
+		android:text="作业"
+		android:textSize="20dp"
+        />
+   <EditText 
+       android:id="@+id/base_edit"
+		android:singleLine="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="45dp"
+	    android:adjustViewBounds="true" 
+	    android:background="@android:color/white"
+	    android:drawableStart="@drawable/event_write"  
+
+	    android:layout_marginLeft="10dp"	
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_gravity="center_vertical"  
+	    
+	    android:paddingTop="10dip"  
+		android:paddingBottom="10dip" 
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		
+		android:hint="内容"
+		android:layout_below="@id/Base_selete_type"
+       
+       />
+
+       <ListView
+           android:id="@+id/base_event_list"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginTop="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_marginBottom="10dp"
+        	
+           android:background="@android:color/white"
+           android:layout_below="@id/base_edit"
+            >
+       </ListView>
+	<LinearLayout 
+	    android:id="@+id/base_event_test"
+	    android:orientation="horizontal"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@id/base_event_list"
+	    ></LinearLayout>
+</RelativeLayout>
